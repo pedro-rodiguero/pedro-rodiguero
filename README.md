@@ -39,8 +39,8 @@
 [STATUS_TELEMETRY]
 NOW        = "SOC Analyst · LOQED Systems"
 STUDIED    = "B.Sc. Software Engineering · Universidade de Brasília (UnB)"
-RESEARCH   = "Threat Intelligence · CVE Analysis · In-House Bug Bounty / VDPs · Dark Web Recon"
-CORE_FOCUS = "Defensive SOC & UEBA Telemetry // Offensive Attack Surface Mapping // Zero Trust Cloud"
+RESEARCH   = "Threat Intelligence · CVE Analysis · In-House Bug Bounty / VDPs · Attack Surface Recon"
+CORE_FOCUS = "Defensive SOC & Telemetry // Offensive Attack Surface Mapping // Zero Trust Cloud"
 LOCATION   = "Brasília, Brazil (UTC-3)"
 ```
 
@@ -49,13 +49,13 @@ LOCATION   = "Brasília, Brazil (UTC-3)"
 ### `[ 01_DISCIPLINES ]` · Core Focus & Security Practice
 
 - 🛡️ **Cybersecurity & SOC Operations**  
-  Threat monitoring, alert triage, incident analysis, and insider-threat detection. Engineering **UEBA** (User & Entity Behavior Analytics) models on endpoint telemetry signals to detect anomalies and unauthorized tool executions.
+  Threat monitoring, alert triage, incident analysis, and behavioral anomaly detection. Investigating endpoint telemetry signals and security events to detect unauthorized tool executions and malicious behavior.
 
 - 🎯 **Offensive Security, CVEs & Bug Bounty**  
   Active in-house Vulnerability Disclosure Program (VDP) and Bug Bounty hunting. Building automated dorking and reconnaissance pipelines (`direct-bugbounty-scout`, `untested-tech-prospector`) for external attack surface mapping (EASM) and exposed surface profiling.
 
-- 🕵️ **Dark-Web Monitoring & Threat Intelligence**  
-  Developing intelligence aggregation pipelines (`loqed-exposure`) tracking infostealer logs, ransomware leak sites, credential exposures, and typosquatting/domain spoofing campaigns.
+- 🕵️ **Threat Intelligence & Dark-Web Monitoring**  
+  Researching intelligence feeds and monitoring methods for tracking infostealer logs, ransomware leak sites, credential exposures, and typosquatting/domain spoofing campaigns.
 
 - ⚡ **Software Engineering & Cloud Architecture**  
   High-throughput data pipelines with **Python** & **DuckDB**, backend microservices with **Go** & **FastAPI**, edge computing & Zero Trust with **Cloudflare** (Workers, Durable Objects, Access, Gateway), and **AWS** infrastructure.
@@ -97,31 +97,32 @@ LOCATION   = "Brasília, Brazil (UTC-3)"
 ### `[ 03_SELECTED_WORK ]` · Systems & Projects
 
 ```yaml
-[prj_01] LOQED Exposure:
-  type: "Threat Intelligence & Dark-Web Monitoring"
-  desc: "External attack surface and leak monitor tracking infostealer logs, ransomware leak sites, and typosquat campaigns."
-  stack: ["Python", "SQLite", "Threat Feeds", "Vanilla JS"]
-
-[prj_02] UEBA & Behavioral Telemetry Engine:
-  type: "SOC · Defensive Security & Anomaly Detection"
-  desc: "Deterministic behavioral baselining and risk engine analyzing millions of telemetry events to detect anomalous and insider threats."
-  stack: ["Python", "DuckDB", "SQL Server", "PyArrow"]
-
-[prj_03] Direct VDP & Attack Surface Scout:
-  type: "Offensive Recon · Bug Bounty Automation"
-  desc: "Automated reconnaissance system discovering direct in-house vulnerability programs, exposed endpoints, and security posture gaps."
-  stack: ["Python", "OSINT / Dorking", "Automation"]
-
-[prj_04] Breachle (breachle.app):
+[prj_01] Breachle (breachle.app):
   type: "Security Gamification · Web App"
   desc: "Daily cybersecurity puzzle game: guess the CVE, triage incoming alerts, and spot malicious phishing indicators."
   stack: ["SvelteKit", "TypeScript", "TailwindCSS"]
   url: "https://breachle.app"
 
-[prj_05] Prospera Tec (prosperatec.com.br):
+[prj_02] Direct VDP & Attack Surface Scout:
+  type: "Offensive Recon · Bug Bounty Automation"
+  desc: "Automated reconnaissance system discovering in-house vulnerability programs, exposed endpoints, and security posture gaps."
+  stack: ["Python", "OSINT / Dorking", "Automation"]
+
+[prj_03] Prospera Tec (prosperatec.com.br):
   type: "Corporate · Security & Compliance"
   desc: "Editorial dark-mode web presence engineered for an audit, compliance, and information-security consultancy."
   url: "https://prosperatec.com.br"
+
+[prj_04] Cyber-HUD Portfolio (pedrorodiguero.netlify.app):
+  type: "Interactive Terminal & Portfolio"
+  desc: "Cyber-HUD terminal web presence featuring custom scanline shaders, live interactive CLI, and structured disciplines."
+  stack: ["Astro", "TailwindCSS", "TypeScript"]
+  url: "https://pedrorodiguero.netlify.app"
+
+[prj_05] Top Car Luxury (topcarluxury-11b5.netlify.app):
+  type: "Luxury & High-Performance UI"
+  desc: "Cinematic, dark-aesthetic digital platform built for a European luxury automotive service."
+  url: "https://topcarluxury-11b5.netlify.app"
 ```
 
 ---
