@@ -130,14 +130,14 @@ LOCATION   = "Brasília, Brazil (UTC-3)"
 ### `[ 04_METRICS ]` · GitHub Activity & Telemetry
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pedro-rodiguero&show_icons=true&hide_border=true&bg_color=04080c&title_color=4dff8f&icon_color=38e8ff&text_color=c8efdd" alt="Pedro's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pedro-rodiguero&hide_border=true&background=04080c&ring=4dff8f&fire=38e8ff&currStreakLabel=4dff8f&sideLabels=6fbd92&dates=3d7a58" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pedro-rodiguero&bg_color=04080c&color=4dff8f&line=38e8ff&point=ffd166&area=true&hide_border=true" alt="Activity Graph" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedro-rodiguero&layout=compact&hide_border=true&bg_color=04080c&title_color=4dff8f&text_color=c8efdd" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pedro-rodiguero&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pedro-rodiguero&theme=tokyonight" alt="Top Languages" />
 </div>
 
 ---
